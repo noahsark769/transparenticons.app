@@ -1,0 +1,55 @@
+{
+  "name": "fluency-website",
+  "private": true,
+  "description": "getfluency.io",
+  "version": "0.1.0",
+  "author": "Noah Gilmore (@noahsark769)",
+  "dependencies": {
+    "@statickit/react": "^2.1.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "gatsby": "^2.20.35",
+    "gatsby-image": "^2.3.5",
+    "gatsby-plugin-favicon": "^3.1.6",
+    "gatsby-plugin-force-trailing-slashes": "^1.0.4",
+    "gatsby-plugin-manifest": "^2.3.7",
+    "gatsby-plugin-mdx": "^1.0.24",
+    "gatsby-plugin-offline": "^3.1.5",
+    "gatsby-plugin-postcss": "^2.2.4",
+    "gatsby-plugin-react-helmet": "^3.2.5",
+    "gatsby-plugin-sharp": "^2.5.7",
+    "gatsby-plugin-sitemap": "^2.2.3",
+    "gatsby-plugin-styled-components": "^3.3.0",
+    "gatsby-source-filesystem": "^2.2.5",
+    "gatsby-transformer-sharp": "^2.4.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-ga": "^2.7.0",
+    "react-helmet": "^6.0.0",
+    "react-icons": "^3.10.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.4",
+    "tailwindcss": "^1.3.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "gatsby-build": "gatsby build --prefix-paths",
+    "deploy": "gatsby build --prefix-paths && cp CNAME ./public && gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
