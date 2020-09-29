@@ -46,13 +46,13 @@ class IndexPage extends React.Component {
                             <p className="mb-8 font-bold">The easiest, simplest way to customize your iOS 14 Home Screen with transparent icons.</p>
                             <div className="flex flex-row items-center mb-8 justify-center md:justify-start">
                                 <div style={{width: "160px"}} className="mr-8">
-                                    <a href="https://apps.apple.com/us/app/id1533210346"><Image filename="appstore.png" alt="Download app" /></a>
+                                    <a href="https://apps.apple.com/app/apple-store/id1533210346?pt=118551115&ct=w&mt=8"><Image filename="appstore.png" alt="Download app" /></a>
                                 </div>
                                 <div><a className="underline" href="https://twitter.com/noahsark769/status/1310059780875022337?s=20">How It Works</a></div>
                             </div>
                             <p className="mb-8" style={{maxWidth: "500px"}}>Transparent App Icons automatically creates images which align exactly with your iPhone wallpaper background. Use these icons as Shortcuts bookmarks on your Home Screen to achieve previously impossible icon layouts, custom icon spacing, and aesthetic Home Screen designs.</p>
                             <div className="flex flex-row">
-                                <a href="https://apps.apple.com/us/app/id1533210346"><FaAppStoreIos size={40} color={"white"} /></a>
+                                <a href="https://apps.apple.com/app/apple-store/id1533210346?pt=118551115&ct=w&mt=8"><FaAppStoreIos size={40} color={"white"} /></a>
                                 <a href="https://instagram.com/transparentappicons"><FaInstagramSquare size={40} color={"white"} /></a>
                                 <a href="https://twitter.com/TransparentIcns"><FaTwitterSquare size={40} color={"white"} /></a>
                             </div>
