@@ -30,7 +30,7 @@ class IndexPage extends React.Component {
             <Helmet>
                 <title>Transparent App Icons</title>
             </Helmet>
-            <div className="outerWrapper flex flex-col justify-center dark-mode:text-white"
+            <div className="outerWrapper flex flex-col justify-center text-white"
                 style={{fontFamily: "'Lato', Helvetica, sans-serif", minHeight: "100vh"}}>
                     <div className="innerWrapper flex flex-row justify-center leading-5 p-8">
                         <div style={{width: "300px"}} className="mr-8 hidden md:block">
