@@ -18,8 +18,8 @@ const A = styled.a`
 `;
 
 function Step(props) {
-    return <div className="flex flex-row items-start mb-4">
-        <div className="mr-8 font-bold text-2xl bg-white text-black p-2 rounded-md flex-shrink-0">Step {props.number}</div>
+    return <div className="flex flex-col md:flex-row items-start mb-4">
+        <div className="mr-8 font-bold text-2xl bg-white text-black p-2 mb-2 rounded-md flex-shrink-0">Step {props.number}</div>
         <div className="flex flex-col">
             {props.children}
         </div>
