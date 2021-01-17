@@ -56,6 +56,13 @@ class IndexPage extends React.Component {
                                 <a href="https://instagram.com/transparentappicons"><FaInstagramSquare size={40} color={"white"} /></a>
                                 <a href="https://twitter.com/TransparentIcns"><FaTwitterSquare size={40} color={"white"} /></a>
                             </div>
+                            <a href="/ios-14-disable-shortcuts-notification/"><div>
+                                <h2 className="text-2xl font-bold mt-8 mb-2">Recent Articles</h2>
+                                <div className="bg-gray-100 text-black rounded-md p-2" style={{maxWidth: "300px"}}>
+                                    <h3 className="text-xl font-bold mb-2">iOS 14: How to Disable the Shortcuts Notification When Opening Apps</h3>
+                                    <Image filename="header.png" alt="App Preview" style={{maxWidth: "300px"}} className="rounded-md" />
+                                </div>
+                            </div></a>
                         </div>
                     </div>
             </div>
